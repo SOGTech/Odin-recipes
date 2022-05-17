@@ -9,6 +9,21 @@ font-size: 96px;
 }
 
 header {
-background-color: rgb(186, 242, 242);
+background-color: rgb(255, 224, 224);
+margin: auto;
 
+}
+
+.images {
+    width: 600px;
+    height: 400px;
+}
+
+.recipe-description {
+    text-align: justify;
+    font-family: fantasy;
+}
+
+.list {
+    display: inline;
 }
