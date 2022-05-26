@@ -2,12 +2,22 @@
 
 
 h1 {
-
 text-align: center;
 font-family: fantasy;
 font-size: 96px;
 }
-
+h2 {
+    font-size: 18px;
+    font-weight: bold;
+}
+    
+h3 {
+    font-size: 18px;
+    font-weight: bold;
+}
+body{
+    margin: 100px;
+}
 header {
 background-color: rgb(255, 224, 224);
 margin: 30px;
@@ -19,7 +29,6 @@ border-radius: 20%;
 .images{
     width: 350px;
     height: 250px;
-    display: inline;
     margin: 40px;
     border-radius: 10%;
     border: solid 2px rgb(110, 255, 245);
@@ -34,6 +43,30 @@ border-radius: 20%;
     display: inline;
 }
 
-body{
+.Card-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 
+.boxIngredients{
+    border: solid 3px; 
+    background-color: rgb(255, 224, 224);
+    border-radius: 10%;
+    padding: 10px;
+    margin: 15px;
+    width: 600px;
+}
+.boxSteps{
+    border: solid 3px; 
+    background-color: rgb(255, 224, 224);
+    border-radius: 10%;
+    text-align: justify;
+    padding: 10px;
+    margin: 15PX;
+}
+.button:hover{
+    border-radius: 20%;
+    background-color: aquamarine;
+    scale: 1,5;
 }
